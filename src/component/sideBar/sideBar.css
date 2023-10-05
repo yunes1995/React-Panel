@@ -1,0 +1,62 @@
+
+.btnShow{
+    background-color: red;
+}
+
+.offcanvas-backdrop{
+    background-color: transparent !important;
+}
+
+.offcanvas.offcanvas-start{
+    top: 56px;
+    background-color: silver;
+    width: 203px;
+}
+
+
+.sidebar {
+    flex: 1;
+
+    position: fixed;
+    top: 111px;
+    background-color: silver;
+  }
+  
+  .sidebarWrapper {
+    padding: 20px;
+    color: #555;
+  }
+  
+  .sidebarMenu {
+    margin-bottom: 10px;
+  }
+  
+  .sidebarTitle {
+    font-size: 13px;
+    color: darkblue;
+  }
+  
+  .sidebarList {
+    list-style: none;
+    padding: 5px;
+  }
+  
+  .sidebarListItem {
+    padding: 6px;
+    margin: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .sidebarListItem.active,
+  .sidebarListItem:hover {
+    background-color: rgb(240, 240, 255);
+  }
+  
+  .sidebarIcon {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
