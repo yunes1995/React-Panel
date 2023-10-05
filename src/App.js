@@ -3,6 +3,8 @@ import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import routes from "./routes"
 import { useRoutes } from "react-router-dom";
+import Headers from "./component/Headers";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -13,6 +15,7 @@ function App() {
 
   return (
     <>
+    <Headers></Headers>
       {rot}
     </>
 
