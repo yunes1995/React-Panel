@@ -1,0 +1,5 @@
+.Mainpage{
+    display: flex;
+    flex-flow: column;
+    width: 82%;
+}

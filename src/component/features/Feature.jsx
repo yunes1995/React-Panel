@@ -7,7 +7,7 @@ import "./features.css";
 export default function Feature() {
   return (
     <div className="features">
-      <div className="featureItem">
+      <div className="featureItem first-feature">
         <span className="featureTitle">Revanue</span>
         <div className="featureContainer">
           <span className="featureMoney">$2,415</span>
@@ -17,7 +17,7 @@ export default function Feature() {
         </div>
         <span className="featureSub">Compared to last month</span>
       </div>
-      <div className="featureItem">
+      <div className="featureItem second-feature">
         <span className="featureTitle">Sales</span>
         <div className="featureContainer">
           <span className="featureMoney">$2,415</span>
@@ -27,7 +27,7 @@ export default function Feature() {
         </div>
         <span className="featureSub">Compared to last month</span>
       </div>
-      <div className="featureItem">
+      <div className="featureItem third-feature">
         <span className="featureTitle">Cost</span>
         <div className="featureContainer">
           <span className="featureMoney">$2,415</span>
