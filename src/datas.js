@@ -76,5 +76,39 @@ const newMembers = [
         img:'images/yunes.jpg'
     },
 ]
+const transactions = [
+    {
+        id: 1,
+        customer: 'Yunes Mohammadi',
+        date: '12 Jun 2022',
+        amount: 545,
+        status: 'Approved',
+        img:'images/yunes.jpg'
+    },
+    {
+        id: 2,
+        customer: 'Yunes Mohammadi',
+        date: '23 Jul 2022',
+        amount: 555,
+        status: 'Declined',
+        img:'images/yunes.jpg'
+    },
+    {
+        id: 3,
+        customer: 'Yunes Mohammadi',
+        date: '28 May 2022',
+        amount: 254,
+        status: 'Pending',
+        img:'images/yunes.jpg'
+    },
+    {
+        id: 4,
+        customer: 'Yunes Mohammadi',
+        date: '1 Feb 2022',
+        amount: 454,
+        status: 'Approved',
+        img:'images/yunes.jpg'
+    },
+]
 
-export { xAxisData, newMembers }
+export { xAxisData, newMembers, transactions }
