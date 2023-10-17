@@ -111,4 +111,47 @@ const transactions = [
     },
 ]
 
-export { xAxisData, newMembers, transactions }
+let userRows = [
+    {
+        id: 1,
+        username: 'Yunes Mohammadi',
+        avatar: '../images/yunes.jpg',
+        status: 'active',
+        transaction: '$129.52',
+        email: 'amin@gmail.com'
+    },
+    {
+        id: 2,
+        username: 'Yunes Mohammadi',
+        avatar: 'images/yunes.jpg',
+        status: 'non-active',
+        transaction: '$110',
+        email: 'amin@gmail.com'
+    },
+    {
+        id: 3,
+        username: 'Yunes Mohammadi',
+        avatar: 'images/yunes.jpg',
+        status: 'active',
+        transaction: '$98',
+        email: 'amin@gmail.com'
+    },
+    {
+        id: 4,
+        username: 'Yunes Mohammadi',
+        avatar: 'images/yunes.jpg',
+        status: 'active',
+        transaction: '$0',
+        email: 'amin@gmail.com'
+    },
+    {
+        id: 5,
+        username: 'Yunes Mohammadi',
+        avatar: 'images/yunes.jpg',
+        status: 'active',
+        transaction: '$55.98',
+        email: 'amin@gmail.com'
+    }
+]
+
+export { xAxisData, newMembers, transactions, userRows }
