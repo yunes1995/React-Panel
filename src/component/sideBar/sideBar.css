@@ -1,25 +1,35 @@
 
 .btnShow{
-    background-color: red;
+  background-color: silver;
+  border: none;
+  padding: 20px;
+  color: black;
+  box-shadow: 0 0 5px;
+  font-family: cursive;
+  border-radius: 0 150px 150px 0;
 }
-
+.btnShow:hover{
+  color: var(--bs-btn-hover-color);
+    background-color: #d70b46e8;
+    /* border-color: var(--bs-btn-hover-border-color); */
+    box-shadow: 0 0 10px #806200;
+}
 .offcanvas-backdrop{
     background-color: transparent !important;
 }
 
 .offcanvas.offcanvas-start{
     top: 56px;
-    background-color: silver;
+    background-color: #ffd4d4;
     width: 203px;
 }
 
 
 .sidebar {
     flex: 1;
-
     position: fixed;
     top: 111px;
-    background-color: silver;
+    background-color: #ffd4d4;
   }
   
   .sidebarWrapper {

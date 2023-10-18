@@ -98,7 +98,7 @@ function OffCanvasExample({ name, scroll, backdrop, ...props }) {
                     </li>
                   </Link>
 
-                  <Link to="/product" className='link'>
+                  <Link to="/products" className='link'>
                   <li className="sidebarListItem">
                     <StorefrontIcon className="sidebarIcon" />
                     Products
